@@ -4,7 +4,7 @@
 function titulo(){
 	echo("Calculando valores: <br>");
 }
-function soma($num1, $num2){
+function soma ($num1, $num2){
 	return $num1 + $num2;
 }
 
