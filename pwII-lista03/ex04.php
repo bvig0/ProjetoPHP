@@ -1,28 +1,25 @@
 <?php
 $meses = [
-    "1" => "Janeiro",
-    "2" => "Fevereiro",
-    "3" => "Março",
-    "4" => "Abril",
-    "5" => "Maio",
-    "6" => "Junho",
-    "7" => "Julho",
-    "8" => "Agosto",
-    "9" => "Setembro",
-    "10" => "Outubro",
-    "11" => "Novembro",
-    "12" => "Dezembro"
+    1 => "Janeiro",
+    2 => "Fevereiro",
+    3 => "Março",
+    4 => "Abril",
+    5 => "Maio",
+    6 => "Junho",
+    7 => "Julho",
+    8 => "Agosto",
+    9 => "Setembro",
+    10 => "Outubro",
+    11 => "Novembro",
+    12 => "Dezembro"
 ];
 
-$escolha = "12";
+$escolha = 8;
 
 foreach ($meses as $key => $value) {
     if($key == $escolha){
-        echo "Mês correspondente ao número digitado ($key): $value.";
+        echo "Mês correspondente ao número digitado ($key): $value";
     }
 }
-
-
-
 
 ?>
