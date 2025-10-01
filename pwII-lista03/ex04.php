@@ -21,5 +21,4 @@ foreach ($meses as $key => $value) {
         echo "Mês correspondente ao número digitado ($key): $value";
     }
 }
-
 ?>
